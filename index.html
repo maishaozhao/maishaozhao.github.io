@@ -2,11 +2,492 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="keywords" content="广州依咪服饰有限公司">
+  <meta name="description" content="广州依咪服饰有限公司">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>广州依咪服饰有限公司</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="bin/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="bin/LiScroll.js"></script>
+  <script type="text/javascript" src="bin/jquery.tools.min.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
-  <div>你好</div>
+  <!-- 导航 -->
+  <div class="top_bg">
+      <!-- <div class="top">
+          <ul class="fl">
+              <li style="background:url(templates/web/images/t_tel.jpg) 7px center no-repeat;">13535365852 &nbsp; &nbsp;微信：15873064338&nbsp;</li>
+          </ul>
+          <div class="share fr">
+              <a href="" onclick="SetHome(this,window.location)">设为首页</a>
+              <a href="" onclick="AddFavorite(window.location,document.title)">加入收藏</a>
+          </div>
+          <form method="post" onsubmit="/?c=search">
+              <input type="text" name="keywords" value="搜索" class="keyword" maxlength="20" onfocus="if(this.value==this.defaultValue){this.value='';}"
+                  onblur="if(this.value==''){this.value=this.defaultValue;}" />
+              <input type="submit" value=" " class="submit" />
+          </form>
+      </div> -->
+      <div class="nav_bg">
+          <div class="nav">
+              <a class="fl" href="index.htm">
+                <img src="img/logo.gif" alt="">
+              </a>
+              <ul>
+                  <li>
+                      <a href="index.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/" title="HOME">首页</a>
+                  </li>
+                  <li>
+                      <a href="-c=msg&ts=aboutus.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&ts=aboutus" title="ABOUT US">关于我们</a>
+                  </li>
+                  <li>
+                      <a href="-c=list&cs=cp.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=list&cs=cp" title="Products">产品展示</a>
+                  </li>
+                  <li>
+                      <a href="-c=list&cs=news.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=list&cs=news" title="NEWS">新闻资讯</a>
+                  </li>
+                  <li>
+                      <a href="-c=list&ms=book.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=list&ms=book" title="JIAMENG">在线留言</a>
+                  </li>
+                  <li>
+                      <a href="-c=msg&ts=contactus.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&ts=contactus" title="CONTACT">联系我们</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div class="banner">
+          <ul class="slides">
+              <li>
+                <a href=""><img src="img/banner1.jpg" alt=""></a>
+              </li>
+              <li>
+                <a href=""><img src="img/banner2.jpg" alt=""></a>
+              </li>
+              <li>
+                <a href=""><img src="img/banner3.jpg" alt=""></a>
+              </li>
+          </ul>
+      </div>
+
+      <script src="bin/jquery.flexslider-min.js"></script>
+      <script>
+          $(function () {
+              $('.banner').flexslider({
+                  directionNav: true,
+                  pauseOnAction: false
+              });
+          });
+      </script>
+    <div class="index_main">
+        <div class="ind_clients">
+            <div class="title">
+                <div class="tit fl">精品推荐</div>
+                <div class="bg fl"></div>
+                <div class="page fl">
+                    <img src="pre.jpg" class="ctrl"
+                    />
+                    <img src="next.jpg" class="ctrl"
+                    />
+                </div>
+            </div>
+            <div class="clients_list" id="ScrollBox">
+                <ul>
+                    <li>
+                        <a href="-c=msg&id=2227.htm" target="_blank">
+                            <img src="img/1887_n2.jpg" width="218" height="198" />
+                            <span>POLO衫</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2174.htm" target="_blank">
+                            <img src="img/1831_n2.jpg"
+                                width="218" height="198" />
+                            <span>圆领T恤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=1951.htm" target="_blank">
+                            <img src="img/1608_n2.jpg"
+                                width="218" height="198" />
+                            <span>冲锋衣</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=3082.htm" target="_blank">
+                            <img src="img/2119_n2.jpg"
+                                width="218" height="198" />
+                            <span>长袖工作服</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=3075.htm" target="_blank">
+                            <img src="img/2108_n2.jpg"
+                                width="218" height="198" />
+                            <span>长袖工作服</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2899.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2899" target="_blank">
+                            <img src="img/2331_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a/a4/201903/11/2331_n2.jpg"
+                                width="218" height="198" />
+                            <span>冲锋衣</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2824.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2824" target="_blank">
+                            <img src="img/2256_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a/a4/201903/11/2256_n2.jpg"
+                                width="218" height="198" />
+                            <span>冲锋衣</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2803.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2803" target="_blank">
+                            <img src="img/2235_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a/a3/201903/11/2235_n2.jpg"
+                                width="218" height="198" />
+                            <span>立领马甲</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2787.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2787" target="_blank">
+                            <img src="img/2219_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a/a2/201903/11/2219_n2.jpg"
+                                width="218" height="198" />
+                            <span>智能发热马甲</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2758.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2758" target="_blank">
+                            <img src="img/2190_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a/a1/201903/11/2190_n2.jpg"
+                                width="218" height="198" />
+                            <span>冲锋衣裤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2745.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2745" target="_blank">
+                            <img src="img/2177_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a/a1/201903/11/2177_n2.jpg"
+                                width="218" height="198" />
+                            <span>男士迷彩裤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2737.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2737" target="_blank">
+                            <img src="img/2169_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a7/201903/11/2169_n2.jpg"
+                                width="218" height="198" />
+                            <span>卫衣</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2730.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2730" target="_blank">
+                            <img src="img/2162_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a7/201903/11/2162_n2.jpg"
+                                width="218" height="198" />
+                            <span>卫衣</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2729.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2729" target="_blank">
+                            <img src="img/2161_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a7/201903/11/2161_n2.jpg"
+                                width="218" height="198" />
+                            <span>卫衣</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2727.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2727" target="_blank">
+                            <img src="img/2159_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a7/201903/11/2159_n2.jpg"
+                                width="218" height="198" />
+                            <span>卫衣</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2716.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2716" target="_blank">
+                            <img src="img/2148_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a7/201903/11/2148_n2.jpg"
+                                width="218" height="198" />
+                            <span>卫衣</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2715.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2715" target="_blank">
+                            <img src="img/2147_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a7/201903/11/2147_n2.jpg"
+                                width="218" height="198" />
+                            <span>卫衣</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2225.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2225" target="_blank">
+                            <img src="img/1885_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a5/201903/06/1885_n2.jpg"
+                                width="218" height="198" />
+                            <span>POLO衫</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2222.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2222" target="_blank">
+                            <img src="img/1882_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a5/201903/06/1882_n2.jpg"
+                                width="218" height="198" />
+                            <span>POLO衫</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2215.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2215" target="_blank">
+                            <img src="1875_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a5/201903/06/1875_n2.jpg"
+                                width="218" height="198" />
+                            <span>POLO衫</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2210.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2210" target="_blank">
+                            <img src="img/1867_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a5/201903/06/1867_n2.jpg"
+                                width="218" height="198" />
+                            <span>POLO衫</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2209.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2209" target="_blank">
+                            <img src="img/1866_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a5/201903/06/1866_n2.jpg"
+                                width="218" height="198" />
+                            <span>POLO衫</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2183.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2183" target="_blank">
+                            <img src="img/1840_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a4/201903/06/1840_n2.jpg"
+                                width="218" height="198" />
+                            <span>圆领T恤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2179.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2179" target="_blank">
+                            <img src="img/1836_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a4/201903/06/1836_n2.jpg"
+                                width="218" height="198" />
+                            <span>圆领T恤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2173.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2173" target="_blank">
+                            <img src="img/1830_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a4/201903/06/1830_n2.jpg"
+                                width="218" height="198" />
+                            <span>圆领T恤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2155.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2155" target="_blank">
+                            <img src="img/1812_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a4/201903/06/1812_n2.jpg"
+                                width="218" height="198" />
+                            <span>圆领T恤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2153.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2153" target="_blank">
+                            <img src="img/1810_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a4/201903/06/1810_n2.jpg"
+                                width="218" height="198" />
+                            <span>圆领T恤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2144.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2144" target="_blank">
+                            <img src="img/1801_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a4/201903/06/1801_n2.jpg"
+                                width="218" height="198" />
+                            <span>圆领T恤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2109.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2109" target="_blank">
+                            <img src="img/1766_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a3/201903/06/1766_n2.jpg"
+                                width="218" height="198" />
+                            <span>风衣夏款</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2095.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2095" target="_blank">
+                            <img src="img/1752_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a3/201903/06/1752_n2.jpg"
+                                width="218" height="198" />
+                            <span>风衣夏款</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2094.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2094" target="_blank">
+                            <img src="img/1751_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a3/201903/06/1751_n2.jpg"
+                                width="218" height="198" />
+                            <span>风衣夏款</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2090.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2090" target="_blank">
+                            <img src="img/1747_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a3/201903/06/1747_n2.jpg"
+                                width="218" height="198" />
+                            <span>风衣夏款</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2075.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2075" target="_blank">
+                            <img src="img/1732_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a3/201903/06/1732_n2.jpg"
+                                width="218" height="198" />
+                            <span>风衣夏款</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=2016.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2016" target="_blank">
+                            <img src="img/1615_n2.png" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a2/201903/06/1615_n2.png"
+                                width="218" height="198" />
+                            <span>速干裤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=1994.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1994" target="_blank">
+                            <img src="img/1654_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a2/201903/06/1654_n2.jpg"
+                                width="218" height="198" />
+                            <span>P1707-裤子</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=1981.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1981" target="_blank">
+                            <img src="img/1641_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a2/201903/06/1641_n2.jpg"
+                                width="218" height="198" />
+                            <span>弹力速干裤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=1980.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1980" target="_blank">
+                            <img src="img/1640_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a2/201903/06/1640_n2.jpg"
+                                width="218" height="198" />
+                            <span>弹力速干裤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=1978.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1978" target="_blank">
+                            <img src="img/1638_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a2/201903/06/1638_n2.jpg"
+                                width="218" height="198" />
+                            <span>弹力速干裤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=1974.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1974" target="_blank">
+                            <img src="img/1634_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a2/201903/06/1634_n2.jpg"
+                                width="218" height="198" />
+                            <span>弹力速干裤</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="-c=msg&id=1953.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1953" target="_blank">
+                            <img src="img/1610_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a1/201903/06/1610_n2.jpg"
+                                width="218" height="198" />
+                            <span>冲锋衣</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ind_pro">
+            <div class="title">产品中心</div>
+            <ul class="ind_cate_list">
+                <li>
+                    <a href="-c=list&cs=gongzuofu.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=list&cs=gongzuofu" title="工作服"
+                        class="hover">工作服</a>
+                </li>
+                <li>
+                    <a href="-c=list&cs=weiyi.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=list&cs=weiyi" title="卫衣" class="">卫衣</a>
+                </li>
+                <li>
+                    <a href="-c=list&cs=poloshan.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=list&cs=poloshan" title="POLO衫"
+                        class="">POLO衫</a>
+                </li>
+                <li>
+                    <a href="-c=list&cs=yuanlingtxu.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=list&cs=yuanlingtxu" title="圆领T恤"
+                        class="">圆领T恤</a>
+                </li>
+                <li>
+                    <a href="-c=list&cs=fengyixiakuan.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=list&cs=fengyixiakuan"
+                        title="风衣夏款" class="">风衣夏款</a>
+                </li>
+                <li>
+                    <a href="-c=list&cs=chongfengyi.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=list&cs=chongfengyi" title="冲锋衣"
+                        class="">冲锋衣</a>
+                </li>
+            </ul>
+            <div class="ind_pro_list">
+                <div class="pro_li">
+                    <a href="-c=msg&id=2227.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2227">
+                        <img width="280" height="254" src="img/1887_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a5/201903/06/1887_n2.jpg"
+                        />
+                        <span>POLO衫</span>
+                    </a>
+                </div>
+                <div class="pro_li">
+                    <a href="-c=msg&id=2174.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=2174">
+                        <img width="280" height="254" src="img/1831_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a4/201903/06/1831_n2.jpg"
+                        />
+                        <span>圆领T恤</span>
+                    </a>
+                </div>
+                <div class="pro_li">
+                    <a href="-c=msg&id=1951.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1951">
+                        <img width="280" height="254" src="img/1608_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a1/201903/06/1608_n2.jpg"
+                        />
+                        <span>冲锋衣</span>
+                    </a>
+                </div>
+                <div class="pro_li">
+                    <a href="-c=msg&id=3082.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=3082">
+                        <img width="280" height="254" src="img/2119_n2.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/upfiles/a6/201903/07/2119_n2.jpg"
+                        />
+                        <span>长袖工作服</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ind_c_n_f">
+            <div class="item fl">
+                <div class="title">公司简介</div>
+                <dl>
+                    <!--<dt><img src="templates/web/images/b1.jpg" width="568" height="171" /></dt>-->
+                    <dd>
+                        <div class="text">
+                            <p style="text-indent: 2em;">广州依咪服饰有限公司经营生产加工各类服装：POLO衫、圆领T恤、长袖POLO衫、休闲裤、西裤、马甲、冲锋衣、羽棉服、羽绒服、卫衣、棒球服、衬衣、车间工作服、男女装外套等。
+                                <span style="text-indent: 2em;">拥有完整、科学的质量管理体系。广州千壹服饰有限公司的诚信、实力和产品质量获得业界的认可。欢迎各界朋友莅临参观、指导和业务洽谈。</span>
+                            </p>
+                            <p style="text-indent: 2em;">经营模式：生产加工、定制；注册资本：伍佰万元整；公司成立时间：2018年；公司注册地：广东省广州市；企业类型：自然人独资；法定代表人：张利红；工商注册/统一社会信用代码：914401011MA5B6RG39X；管理体系认证：ISO9001；产品质量认证：CQC；厂房面积：700平方米；月产量：15000件
+                                ；员工人数：35—40人；技术骨干：5—10人；主要销售区域：全国市场以及外贸客户；年营业额：人民币450万/年——600万/年；质量控制：生产部质检。</p>
+                        </div>
+                        <a class="detail" href="-c=msg&ts=contactus.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&ts=contactus">联系我们</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="item fr">
+                <div class="title">新闻资讯</div>
+                <dl>
+                    <dt class="fl" style="margin-top:25px;">
+                        <img src="b4.jpg" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/templates/web/images/b4.jpg" width="180"
+                        / height="270">
+                    </dt>
+                    <dd class="fr">
+                        <div class="min_item" style="margin-top:25px;">
+                            <a href="-c=msg&id=1937.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1937">冲锋衣定制分三类</a>
+                            <span class="date">19-02-23</span>
+                        </div>
+                        <div class="min_item">
+                            <a href="-c=msg&id=1936.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1936">一条好的西裤是什么样子的？</a>
+                            <span class="date">19-02-23</span>
+                        </div>
+                        <div class="min_item">
+                            <a href="-c=msg&id=1935.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1935">国际服装面料检验标准</a>
+                            <span class="date">19-02-23</span>
+                        </div>
+                        <div class="min_item">
+                            <a href="-c=msg&id=1934.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1934">工作服广泛用于个个行业</a>
+                            <span class="date">19-02-23</span>
+                        </div>
+                        <div class="min_item">
+                            <a href="-c=msg&id=1933.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1933">黑科技不到2分钟就能做旧一条牛仔裤</a>
+                            <span class="date">19-02-23</span>
+                        </div>
+                        <div class="min_item">
+                            <a href="-c=msg&id=1932.htm" tppabs="http://qianyigzcom.g2.bdy.smp06.cn/?c=msg&id=1932">T恤衫订做失败 穿出去看起来胖十斤</a>
+                            <span class="date">19-02-23</span>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+  </div>
 </body>
 </html>
